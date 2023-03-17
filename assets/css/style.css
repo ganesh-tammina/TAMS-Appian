@@ -360,7 +360,8 @@ Navbar Area
   z-index: 999;
   height: auto;
 }
-.main-nav nav .navbar-nav .nav-item:hover a, .main-nav nav .navbar-nav .nav-item .active {
+.main-nav nav .navbar-nav .nav-item:hover a,
+.main-nav nav .navbar-nav .nav-item .active {
   color: #ff3900 !important;
 }
 .main-nav nav .navbar-nav .nav-item a {
@@ -382,7 +383,8 @@ Navbar Area
   top: 3px;
   font-size: 18px;
 }
-.main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a :focus {
+.main-nav nav .navbar-nav .nav-item a:hover,
+.main-nav nav .navbar-nav .nav-item a :focus {
   color: #ff3900 !important;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
@@ -417,7 +419,9 @@ Navbar Area
   border-radius: 0.25rem;
   color: #ff3900 !important;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ff3900 !important;
   margin-left: 5px;
   border-radius: 0.25rem;
@@ -538,7 +542,8 @@ Navbar Area
   background-color: #2966be;
 }
 
-.nav-bar-two nav .navbar-nav .nav-item:hover a, .nav-bar-two nav .navbar-nav .nav-item .active {
+.nav-bar-two nav .navbar-nav .nav-item:hover a,
+.nav-bar-two nav .navbar-nav .nav-item .active {
   color: #ffffff !important;
   text-decoration: none;
 }
@@ -548,11 +553,13 @@ Navbar Area
   padding-bottom: 15px;
   text-decoration: none;
 }
-.nav-bar-two nav .navbar-nav .nav-item a:hover, .nav-bar-two nav .navbar-nav .nav-item a :focus {
+.nav-bar-two nav .navbar-nav .nav-item a:hover,
+.nav-bar-two nav .navbar-nav .nav-item a :focus {
   color: #ffffff !important;
   text-decoration: none;
 }
-.nav-bar-two nav .navbar-nav .nav-item a:hover::before, .nav-bar-two nav .navbar-nav .nav-item a :focus::before {
+.nav-bar-two nav .navbar-nav .nav-item a:hover::before,
+.nav-bar-two nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
   width: 100%;
 }
@@ -585,7 +592,9 @@ Navbar Area
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
 }
-.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a :focus::before, .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a :focus::before,
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
   display: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li.active::before {
@@ -595,7 +604,8 @@ Navbar Area
 .nav-bar-three nav .navbar-nav .nav-item a {
   position: relative;
 }
-.nav-bar-three nav .navbar-nav .nav-item a:hover::before, .nav-bar-three nav .navbar-nav .nav-item a :focus::before {
+.nav-bar-three nav .navbar-nav .nav-item a:hover::before,
+.nav-bar-three nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
   width: 100%;
 }
@@ -624,7 +634,9 @@ Navbar Area
 .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
 }
-.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a :focus::before, .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a :focus::before,
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
   display: none;
 }
 .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li.active::before {
@@ -6686,7 +6698,8 @@ Buy Now Btn
   background-color: #1256b6;
   position: relative;
 }
-.segment .appian-text, .segment .segment-text {
+.segment .appian-text,
+.segment .segment-text {
   color: #fff;
 }
 
@@ -7249,7 +7262,8 @@ area {
 }
 
 @media (min-width: 1350px) {
-  .two, .four {
+  .two,
+  .four {
     position: relative;
     top: 80px;
   }
@@ -7543,4 +7557,66 @@ area {
   bottom: 0;
   animation-delay: 2s;
   z-index: 99;
+}
+
+.section-3 {
+  position: relative;
+  left: -188px;
+  top: -74px;
+}
+.section-3 .ellipse-image {
+  width: 507px;
+  height: 601px;
+  transform: rotate(10deg);
+}
+.section-3 .key-features {
+  position: absolute;
+  width: 530px;
+  height: 45px;
+  left: 781px;
+  top: 115px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #243C78;
+  white-space: nowrap;
+}
+.section-3 .rectangle-6 {
+  position: absolute;
+  width: 529px;
+  height: 2px;
+  left: 782px;
+  top: 176px;
+  background: #243C78;
+}
+.section-3 .rectangle-7 {
+  position: absolute;
+  width: 89px;
+  height: 8px;
+  left: 1002px;
+  top: 173px;
+  background: #243C78;
+}
+.section-3 .Text {
+  position: absolute;
+  width: 722px;
+  height: 187px;
+  left: 783px;
+  top: 197px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5A5050;
+}
+.section-3 .tab-features {
+  position: absolute;
+  width: 588px;
+  height: 369px;
+  left: 115px;
+  top: 202px;
 }/*# sourceMappingURL=style.css.map */

@@ -7285,6 +7285,98 @@ left: -40px;
     border-radius: 10px;
 }
 
+.methodology{
+    background-image: url(file:///F:/Harish-work-space/TAMS/TAMS-Appian/assets/TAMS%20imgs/methodology-bg-shape.svg);
+    background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        .methodology-session-text{
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            text-transform: uppercase;
+            color: #ffffff;
+            border-bottom: 2px solid #ffffff;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 5px;
+            
+                &::before {
+                    content: "";
+                    width: 55px;
+                    height: 8px;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -4px;
+                    margin: auto;
+                    background: #ffffff;
+            }
+           .information{
+            p{
+                color: #fff !important;
+            }
+           }
+        }
+        .First-text{
+            border-style: dotted ;
+            border-color: yellow;
+            border-radius: 3rem;
+            padding: 2rem;
+            margin: 3rem 0 3rem 0;
+            width: 54rem;
+            position: relative;
+            p{
+                color: white;
+            }
+            .omni-text{
+                text-align: center;
+                position: absolute;
+                top: -21px;
+                left: 0;
+                right: 0;
+                background-color: #1c847f;
+                width: 50%;
+                margin: auto;
+            }
+        }
+        .second-text{
+            border-style: dotted;
+            border-color: yellow;
+            border-radius: 3rem;
+            padding: 2rem;
+            width: 54rem;
+            position: relative;
+            p{
+                color: white;
+            }
+            .omni-text{
+                text-align: center;
+                position: absolute;
+                top: -21px;
+                left: 0;
+                right: 0;
+                background-color: #1c847f;
+                width: 50%;
+                margin: auto;
+            }
+        }
+        .left-part{
+            .robo{
+                position: relative;
+                img{
+                 position: absolute;
+                 top: 21rem;
+                }
+            }
+        }
+}
+
+
+
 .second-session{
     .second-session-text{
         font-weight: 500;

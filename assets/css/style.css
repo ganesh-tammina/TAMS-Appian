@@ -7789,4 +7789,66 @@ area {
 .d-grid-align {
   display: grid;
   place-content: center;
+}
+
+.section-3 {
+  position: relative;
+  left: -188px;
+  top: -74px;
+}
+.section-3 .ellipse-image {
+  width: 507px;
+  height: 601px;
+  transform: rotate(10deg);
+}
+.section-3 .key-features {
+  position: absolute;
+  width: 530px;
+  height: 45px;
+  left: 781px;
+  top: 115px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #243C78;
+  white-space: nowrap;
+}
+.section-3 .rectangle-6 {
+  position: absolute;
+  width: 529px;
+  height: 2px;
+  left: 782px;
+  top: 176px;
+  background: #243C78;
+}
+.section-3 .rectangle-7 {
+  position: absolute;
+  width: 89px;
+  height: 8px;
+  left: 1002px;
+  top: 173px;
+  background: #243C78;
+}
+.section-3 .Text {
+  position: absolute;
+  width: 722px;
+  height: 187px;
+  left: 783px;
+  top: 197px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5A5050;
+}
+.section-3 .tab-features {
+  position: absolute;
+  width: 588px;
+  height: 369px;
+  left: 115px;
+  top: 202px;
 }/*# sourceMappingURL=style.css.map */

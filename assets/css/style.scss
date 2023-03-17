@@ -7352,6 +7352,16 @@ left: -40px;
             p{
                 color: white;
             }
+            .arrow-1{
+                position: absolute;
+                left: 13rem;
+                 bottom: 24rem;
+            }
+            .arrow-2{
+                position: absolute;
+                left: 39rem;
+                bottom: 24rem;
+            }
             .omni-text{
                 text-align: center;
                 position: absolute;
@@ -7361,6 +7371,7 @@ left: -40px;
                 background-color: #1c847f;
                 width: 50%;
                 margin: auto;
+                color: yellow;
             }
         }
         .second-text{
@@ -7373,6 +7384,19 @@ left: -40px;
             p{
                 color: white;
             }
+            .arro-1{
+                position: absolute;
+                left: 13rem;
+                 bottom: 216px;
+}
+
+
+            }
+            .arro-2{
+                position: absolute;
+                left: 39rem;
+                bottom: 216px;
+            }
             .omni-text{
                 text-align: center;
                 position: absolute;
@@ -7382,9 +7406,36 @@ left: -40px;
                 background-color: #1c847f;
                 width: 50%;
                 margin: auto;
+                color: yellow;
             }
         }
         .left-part{
+            position: relative;
+            .polygon-1{
+              position: absolute;
+              top: 14rem;
+              left: 16rem;
+              animation: rotating 7s linear infinite;
+            }
+            .polygon-2{
+                position: absolute;
+                top: 13.5rem;
+                left: 34rem;
+                animation: rotating 7s linear infinite;
+            }
+            .polygon-3{
+                position: absolute;
+                top: 51rem;
+                left: 25rem;
+                animation: rotating 7s linear infinite;
+
+            }
+            .polygon-4{
+                position: absolute;
+                top: 55rem;
+                left: 21rem;
+                animation: rotating 7s linear infinite;
+            }
             .robo{
                 position: relative;
                 img{
@@ -7393,7 +7444,8 @@ left: -40px;
                 }
             }
         }
-}
+       
+
 
 
 

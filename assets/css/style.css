@@ -6987,6 +6987,16 @@ area {
 .methodology .First-text p {
   color: white;
 }
+.methodology .First-text .arrow-1 {
+  position: absolute;
+  left: 13rem;
+  bottom: 24rem;
+}
+.methodology .First-text .arrow-2 {
+  position: absolute;
+  left: 39rem;
+  bottom: 24rem;
+}
 .methodology .First-text .omni-text {
   text-align: center;
   position: absolute;
@@ -6996,6 +7006,7 @@ area {
   background-color: #1c847f;
   width: 50%;
   margin: auto;
+  color: yellow;
 }
 .methodology .second-text {
   border-style: dotted;
@@ -7008,7 +7019,17 @@ area {
 .methodology .second-text p {
   color: white;
 }
-.methodology .second-text .omni-text {
+.methodology .second-text .arro-1 {
+  position: absolute;
+  left: 13rem;
+  bottom: 216px;
+}
+.methodology .arro-2 {
+  position: absolute;
+  left: 39rem;
+  bottom: 216px;
+}
+.methodology .omni-text {
   text-align: center;
   position: absolute;
   top: -21px;
@@ -7017,11 +7038,40 @@ area {
   background-color: #1c847f;
   width: 50%;
   margin: auto;
+  color: yellow;
 }
-.methodology .left-part .robo {
+
+.left-part {
   position: relative;
 }
-.methodology .left-part .robo img {
+.left-part .polygon-1 {
+  position: absolute;
+  top: 14rem;
+  left: 16rem;
+  animation: rotating 7s linear infinite;
+}
+.left-part .polygon-2 {
+  position: absolute;
+  top: 13.5rem;
+  left: 34rem;
+  animation: rotating 7s linear infinite;
+}
+.left-part .polygon-3 {
+  position: absolute;
+  top: 51rem;
+  left: 25rem;
+  animation: rotating 7s linear infinite;
+}
+.left-part .polygon-4 {
+  position: absolute;
+  top: 55rem;
+  left: 21rem;
+  animation: rotating 7s linear infinite;
+}
+.left-part .robo {
+  position: relative;
+}
+.left-part .robo img {
   position: absolute;
   top: 21rem;
 }

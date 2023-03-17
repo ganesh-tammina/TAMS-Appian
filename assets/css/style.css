@@ -6934,6 +6934,14 @@ area {
 .second-session p .first-content {
   font-weight: 500;
 }
+.second-session .card-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-session .card-content {
+  display: grid;
+  place-content: center;
+}
 
 .third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
@@ -7246,6 +7254,16 @@ area {
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
   display: grid;
   place-items: center;
+}
+
+.card-align-left {
+  margin-left: auto;
+}
+@media (min-width: 992px) {
+  .card-align-left {
+    position: relative;
+    left: 22px;
+  }
 }
 
 @media (min-width: 1350px) {
@@ -7589,6 +7607,41 @@ area {
 .tammina-session .tech-robo-align {
   position: relative;
   top: 41px;
+}
+.tammina-session .tammina-block {
+  position: relative;
+}
+.tammina-session .tammina-block::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-image: url(../TAMS\ imgs/why-tech-3D-traingle-1-big.svg);
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  top: -150px;
+  right: 0;
+}
+.tammina-session .tammina-text {
+  position: relative;
+}
+.tammina-session .tammina-text::before {
+  content: "";
+  width: 75px;
+  height: 75px;
+  background-image: url(../TAMS\ imgs/why-tech-3D-traingle-2-small.svg);
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  left: -44px;
+}
+
+.mid-text {
+  background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
 }
 
 .height-100 {

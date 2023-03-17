@@ -6878,12 +6878,31 @@ area {
     font-size: 38px;
   }
 }
+.first-section .first-section-content .laptop-view {
+  margin-top: 16rem;
+}
 .first-section .first-section-image .first-section_content {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   padding: 20px 0px;
   width: 60%;
+}
+.first-section .gare-circle-low {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+.first-section .gare-circle-low img {
+  animation: rotating 7s linear infinite;
+}
+.first-section .gare-circle-samll {
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
+}
+.first-section .gare-circle-samll img {
+  animation: rotating 7s linear infinite;
 }
 .first-section .man-path {
   position: absolute;
@@ -6899,6 +6918,22 @@ area {
   width: 100px;
   margin-top: 65px;
   height: 100px;
+}
+.first-section .gare-circle {
+  position: relative;
+  top: -161px;
+  left: 0;
+}
+.first-section .gare-circle img {
+  animation: rotating 7s linear infinite;
+}
+.first-section .laptop-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
 }
 
 .into-card {
@@ -6991,6 +7026,24 @@ area {
   top: 21rem;
 }
 
+.second-session.second-session-bg {
+  background-image: url(../TAMS\ imgs/Over-view-Ifographics.svg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.second-session .second-session-before::before {
+  content: "";
+  background-image: url(../TAMS\ imgs/blue-wheel.svg);
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
 .second-session .second-session-text {
   font-weight: 500;
   font-size: 30px;
@@ -7018,6 +7071,14 @@ area {
 }
 .second-session p .first-content {
   font-weight: 500;
+}
+.second-session .card-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-session .card-content {
+  display: grid;
+  place-content: center;
 }
 
 .third-session {
@@ -7331,6 +7392,16 @@ area {
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
   display: grid;
   place-items: center;
+}
+
+.card-align-left {
+  margin-left: auto;
+}
+@media (min-width: 992px) {
+  .card-align-left {
+    position: relative;
+    left: 22px;
+  }
 }
 
 @media (min-width: 1350px) {
@@ -7675,7 +7746,47 @@ area {
   position: relative;
   top: 41px;
 }
+.tammina-session .tammina-block {
+  position: relative;
+}
+.tammina-session .tammina-block::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-image: url(../TAMS\ imgs/why-tech-3D-traingle-1-big.svg);
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  top: -150px;
+  right: 0;
+}
+.tammina-session .tammina-text {
+  position: relative;
+}
+.tammina-session .tammina-text::before {
+  content: "";
+  width: 75px;
+  height: 75px;
+  background-image: url(../TAMS\ imgs/why-tech-3D-traingle-2-small.svg);
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  left: -44px;
+}
+
+.mid-text {
+  background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
 
 .height-100 {
   height: 100vh;
+}
+
+.d-grid-align {
+  display: grid;
+  place-content: center;
 }/*# sourceMappingURL=style.css.map */

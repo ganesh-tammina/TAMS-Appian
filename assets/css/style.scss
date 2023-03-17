@@ -7285,7 +7285,7 @@ left: -40px;
     .gare-circle{
         position: relative;
     top: -161px;
-    left: calc(100% - 88%);
+    left: 0;
     img{
         animation: rotating 7s linear infinite
     }
@@ -8092,4 +8092,9 @@ font-weight: bold;
 
  .height-100{
   height: 100vh;
+ }
+
+ .d-grid-align{
+    display: grid;
+    place-content: center;
  }

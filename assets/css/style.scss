@@ -7227,21 +7227,9 @@ left: -40px;
                 font-size: 38px;
             }
         }
-    //    .laptop-view{
-    //     position: relative;
-    //     &::before{
-    //         content: "";
-    // background-image: url(../TAMS\ imgs/lap-bg-gear.svg);
-    // position: absolute;
-    // top: -177px;
-    // width: 275px;
-    // height: 275px;
-    // left: 0;
-    // right: 0;
-    // margin: auto;
-    // background-size: contain;
-    //     }
-    //    } 
+       .laptop-view{
+        margin-top: 16rem;
+       } 
     }
     .first-section-image{
         .first-section_content{
@@ -7251,8 +7239,24 @@ left: -40px;
             padding: 20px 0px;
             width: 60%;
         }
+       
     }
-
+    .gare-circle-low{
+        position: absolute;
+        bottom: 0;
+        right: calc(100% - 90%);
+        img{
+            animation: rotating 7s linear infinite
+        }
+       }
+       .gare-circle-samll{
+        position: absolute;
+        bottom: 10px;
+        right: calc(100% - 75%); 
+        img{
+            animation: rotating 7s linear infinite
+        }
+      }
     .man-path{
         position: absolute;
         top:0;
@@ -7278,6 +7282,22 @@ left: -40px;
         //     background-repeat: no-repeat;
         //     }
     }
+    .gare-circle{
+        position: relative;
+    top: -161px;
+    left: calc(100% - 88%);
+    img{
+        animation: rotating 7s linear infinite
+    }
+    }
+    .laptop-div{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+    }
 }
 
 .into-card{
@@ -7286,6 +7306,26 @@ left: -40px;
 }
 
 .second-session{
+    &.second-session-bg{
+        background-image: url(../TAMS\ imgs/Over-view-Ifographics.svg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .second-session-before{
+        &::before{
+            content: '';
+            background-image: url(../TAMS\ imgs/blue-wheel.svg);
+            position: absolute;
+            width: 100%;
+            height: 500px;
+            left: 0;
+            background-repeat: no-repeat; 
+            background-position-y: center; 
+        }
+    }
     .second-session-text{
         font-weight: 500;
         font-size: 30px;

@@ -6878,12 +6878,31 @@ area {
     font-size: 38px;
   }
 }
+.first-section .first-section-content .laptop-view {
+  margin-top: 16rem;
+}
 .first-section .first-section-image .first-section_content {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   padding: 20px 0px;
   width: 60%;
+}
+.first-section .gare-circle-low {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+.first-section .gare-circle-low img {
+  animation: rotating 7s linear infinite;
+}
+.first-section .gare-circle-samll {
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
+}
+.first-section .gare-circle-samll img {
+  animation: rotating 7s linear infinite;
 }
 .first-section .man-path {
   position: absolute;
@@ -6900,12 +6919,46 @@ area {
   margin-top: 65px;
   height: 100px;
 }
+.first-section .gare-circle {
+  position: relative;
+  top: -161px;
+  left: 12%;
+}
+.first-section .gare-circle img {
+  animation: rotating 7s linear infinite;
+}
+.first-section .laptop-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
 
 .into-card {
   color: #f0f0f0;
   border-radius: 10px;
 }
 
+.second-session.second-session-bg {
+  background-image: url(../TAMS\ imgs/Over-view-Ifographics.svg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.second-session .second-session-before::before {
+  content: "";
+  background-image: url(../TAMS\ imgs/blue-wheel.svg);
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
 .second-session .second-session-text {
   font-weight: 500;
   font-size: 30px;

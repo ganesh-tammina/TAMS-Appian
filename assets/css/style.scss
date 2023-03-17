@@ -7296,6 +7296,7 @@ left: -40px;
         display: inline-block;
         position: relative;
         padding-bottom: 5px;
+    
         &::before{
             content: '';
             width: 55px;
@@ -7806,6 +7807,9 @@ position: relative;
     display: inline-block;
     position: relative;
     padding-bottom: 5px;
+    &.second-session-text-tammina{
+        border-bottom: 2px solid #ffff;
+        }
     &::before{
         content: '';
         width: 55px;
@@ -7815,7 +7819,7 @@ position: relative;
         right: 0;
         bottom: -4px;
         margin: auto;
-        background: #0085FF;
+        background: #ffff;
     }
 }
 
@@ -7945,7 +7949,52 @@ position: relative;
 
     }
   }
+.reports-img{
+    object-fit: contain;
+}
+ .tammina-session{
+    background-image: url(../TAMS\ imgs/locode-&-why-tech-bg.svg);
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    padding: 50px 0px;
+    .design-card-support{
+        height: 150px;
+        background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+    box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+    border-radius: 33px;
+    display: grid;
+    text-align: center;
+        .Connect-content{
+            display: grid;
+            place-content: center;
+            .Connect-btn{
+                border: 3px solid #FFFFFF;
+                border-radius: 9px;
+                height: 85px;
+                width: 215px;
+                background-color: transparent;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 45px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                }
+        }
 
-  .mid-text{
-    
-  }
+    }
+    .tech-robo-align{
+        position: relative;
+        top: 41px;
+    }
+ }
+
+
+
+
+
+ .height-100{
+  height: 100vh;
+ }

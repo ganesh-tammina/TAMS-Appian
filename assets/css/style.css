@@ -7759,6 +7759,7 @@ area {
   background-repeat: no-repeat;
   top: -150px;
   right: 0;
+  animation: running-in 15s linear infinite;
 }
 .tammina-session .tammina-text {
   position: relative;
@@ -7772,6 +7773,7 @@ area {
   bottom: 0;
   background-repeat: no-repeat;
   left: -44px;
+  animation: running-in 15s linear infinite;
 }
 
 .mid-text {

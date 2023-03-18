@@ -6951,12 +6951,7 @@ Buy Now Btn
     }
 }
 
-.squar-box{
-    width: 5em !important;
-    height: 5em !important;
-    border-radius: 5px;
-    border: 2px solid rgb(183 168 168 / 79%)
-}
+
 .set-color{
     color: #ffff00; 
     font-size: 20px;
@@ -7205,7 +7200,7 @@ left: -40px;
 }
 
 .first-section{
-    background-image: url(../TAMS\ imgs/hero-bg-shape.svg);
+    background-image: url('../TAMS\ imgs/hero-bg-shape.svg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -7237,7 +7232,6 @@ left: -40px;
             font-size: 16px;
             line-height: 30px;
             padding: 20px 0px;
-            width: 60%;
         }
        
     }
@@ -7306,7 +7300,7 @@ left: -40px;
 }
 
 .methodology{
-    background-image: url(../TAMS\ imgs/methodology-bg-shape.svg);
+    background-image: url('../TAMS\ imgs/methodology-bg-shape.svg');
     background-size: cover;
         background-repeat: no-repeat;
         height: 150vh;
@@ -7451,7 +7445,7 @@ left: -40px;
 
 .second-session{
     &.second-session-bg{
-        background-image: url(../TAMS\ imgs/Over-view-Ifographics.svg);
+        background-image: url('../TAMS\ imgs/Over-view-Ifographics.svg');
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -7461,7 +7455,7 @@ left: -40px;
     .second-session-before{
         &::before{
             content: '';
-            background-image: url(../TAMS\ imgs/blue-wheel.svg);
+            background-image: url('../TAMS\ imgs/blue-wheel.svg');
             position: absolute;
             width: 100%;
             height: 500px;
@@ -8158,7 +8152,7 @@ position: relative;
     object-fit: contain;
 }
  .tammina-session{
-    background-image: url(../TAMS\ imgs/locode-&-why-tech-bg.svg);
+    background-image: url('../TAMS\ imgs/locode-&-why-tech-bg.svg');
     width: 100%;
     height: 200vh;
     background-size: cover;
@@ -8200,7 +8194,7 @@ position: relative;
             content: '';
             width: 150px;
             height: 150px;
-            background-image: url(../TAMS\ imgs/why-tech-3D-traingle-1-big.svg);
+            background-image: url('./TAMS\ imgs/why-tech-3D-traingle-1-big.svg');
             position: absolute;
             bottom: 0;
             background-repeat: no-repeat;
@@ -8215,7 +8209,7 @@ position: relative;
             content: '';
             width: 75px;
             height: 75px;
-            background-image: url(../TAMS\ imgs/why-tech-3D-traingle-2-small.svg);
+            background-image: url('../TAMS\ imgs/why-tech-3D-traingle-2-small.svg');
             position: absolute;
             bottom: 0;
             background-repeat: no-repeat;
@@ -8245,74 +8239,92 @@ font-weight: bold;
     place-content: center;
  }
 
- .section-3 {
+.icon-set{
+    width: 75px;
+    height: 75px;
+    background-color: #4D4AD6;
+    border-radius: 50px;
     position: relative;
-    left: -188px;
-    top: -74px;
-    
-    .ellipse-image {
-        width: 507px;
-        height: 601px;
-        transform: rotate(10deg);
-    }
-
-    .key-features {
+    &::after{
+        content: '';
+        background-image: url('../TAMS\ imgs/circle.svg');
         position: absolute;
-        width: 530px;
-        height: 45px;
-        left: 781px;
-        top: 115px;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 45px;
-
-        text-transform: uppercase;
-
-        color: #243C78;
-        white-space: nowrap;
-
+    left: -8px;
+    top: -7px;
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: rotating 15s linear infinite;
     }
+}
 
-    .rectangle-6 {
-        position: absolute;
-        width: 529px;
-        height: 2px;
-        left: 782px;
-        top: 176px;
-
-        background: #243C78;
+.key-features-section{
+    position: relative;
+    img{
+        z-index: 9;
     }
-    .rectangle-7{
+    &::before{
+        content: '';
+        background-image: url('../TAMS\ imgs/3-lined-elips.svg');
         position: absolute;
-width: 89px;
-height: 8px;
-left: 1002px;
-top: 173px;
-background: #243C78;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        left: 0;
     }
-    .Text{
-        position: absolute;
-width: 722px;
-height: 187px;
-left: 783px;
-top: 197px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #5A5050;
+    .features-text{
+        position: relative;
+        &::after{
+          content: '';
+          background-image: url('../TAMS\ imgs/Key-features-gear-1.svg');
+          position: absolute;
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 400px;
+          height: 400px;
+          top: 0;
+          right: -200px;
+          margin: auto;
+          bottom: 0;
+          background-position: right;
+          animation: rotating 15s linear infinite;
+          @media(max-width:991px){
+            display: none;
+        }
+        }
+        &::before{
+            content: '';
+            background-image: url('../TAMS\ imgs/Key-features-gear-2.svg');
+            position: absolute;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 300px;
+            right: -380px;
+            margin: auto;
+            bottom: 0;
+            background-position: bottom;
+            animation: rotating 15s linear infinite;
+            @media(max-width:991px){
+                display: none;
+            }
+        }
     }
-    .tab-features{
-        position: absolute;
-width: 588px;
-height: 369px;
-left: 115px;
-top: 202px;
+}
+
+.key-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.key-text{
+    // height: 100px;
+    @media(max-width:991px){
+        margin: auto;
+        text-align: center;
     }
 }

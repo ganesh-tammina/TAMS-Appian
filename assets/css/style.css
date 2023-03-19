@@ -9521,6 +9521,24 @@ area {
   padding: 50px 0px;
 }
 
+.tammina-session .tammina-session-reports {
+  position: relative;
+}
+
+.tammina-session .tammina-session-reports::after {
+  content: '';
+  background-image: url("../TAMS imgs/Vector-squre.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  right: 0;
+  top: -83px;
+  -webkit-animation: rotating 7s linear infinite;
+          animation: rotating 7s linear infinite;
+}
+
 .tammina-session .design-card-support {
   height: 150px;
   background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
@@ -9634,22 +9652,55 @@ area {
 
 .key-features-section {
   position: relative;
-}
-
-.key-features-section img {
-  z-index: 9;
-}
-
-.key-features-section::before {
-  content: '';
   background-image: url("../TAMS imgs/3-lined-elips.svg");
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 344px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
   left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.key-features-section::before {
+  content: '';
+  background-image: url("../TAMS imgs/key-polygon-2.svg");
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  top: -20px;
+  left: 0;
+  right: 0;
+  -webkit-animation: rotating 15s linear infinite;
+          animation: rotating 15s linear infinite;
+}
+
+.key-features-section::after {
+  content: '';
+  background-image: url("../TAMS imgs/key-polygon-5.svg");
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  left: 84px;
+  right: 0;
+  bottom: -13px;
+  -webkit-animation: rotating 15s linear infinite;
+          animation: rotating 15s linear infinite;
+}
+
+.key-features-section img {
+  z-index: 9;
 }
 
 .key-features-section .features-text {

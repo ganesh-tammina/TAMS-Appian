@@ -8159,6 +8159,22 @@ position: relative;
     display: grid;
     place-content: center;
     padding: 50px 0px;
+    .tammina-session-reports{
+        position: relative;
+        &::after{
+        content:'';
+        background-image: url('../TAMS\ imgs/Vector-squre.svg');
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        right: 0;
+        top: -83px;
+        animation: rotating 7s linear infinite;
+
+        }
+    }
     .design-card-support{
         height: 150px;
         background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
@@ -8262,20 +8278,47 @@ font-weight: bold;
 
 .key-features-section{
     position: relative;
+    background-image: url('../TAMS\ imgs/3-lined-elips.svg');
+    position: absolute;
+    width: 100%;
+    height: 344px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    left: 0;
+    align-items: center;
+    display: flex;
+    position: relative;
+    &::before{
+     content: '';
+     background-image: url('../TAMS imgs/key-polygon-2.svg');
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     bottom: 0;
+     background-repeat: no-repeat;
+     top: -20px;
+     left: 0;
+     right: 0;
+    animation: rotating 15s linear infinite;
+    }
+    &::after{
+        content: '';
+        background-image: url('../TAMS imgs/key-polygon-5.svg');
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 0;
+        background-repeat: no-repeat;
+        left: 84px;
+        right: 0;
+        bottom: -13px;
+       animation: rotating 15s linear infinite;
+       }
     img{
         z-index: 9;
     }
-    &::before{
-        content: '';
-        background-image: url('../TAMS\ imgs/3-lined-elips.svg');
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-y: center;
-        left: 0;
-    }
+    
     .features-text{
         position: relative;
         &::after{

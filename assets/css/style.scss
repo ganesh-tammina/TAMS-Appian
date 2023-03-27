@@ -7214,7 +7214,7 @@ left: -40px;
             height: 70%;
         }
         h2{
-            font-size: 42px;
+            font-size: 50px;
             line-height: 1.2;
             font-weight: 700;
             padding-bottom: 15px;
@@ -7255,6 +7255,13 @@ left: -40px;
         position: absolute;
         top:0;
         right:-31px;
+        animation: movebounce-up 9s infinite;
+        img{
+            filter: drop-shadow(2px 4px 6px rgb(73, 123, 187));;
+        }
+        @media(max-width:767px){
+            left: 0;
+        }
         img{
             width: 250px;
             height: 550px;
@@ -7263,7 +7270,10 @@ left: -40px;
             position: absolute;
             width: 100px;
             margin-top: 65px;
-            height: 100px
+            height: 100px;
+            img{
+                animation: rotating 7s linear infinite;
+            }
         }
         // &::after{
         //     content: '';
@@ -7502,6 +7512,16 @@ left: -40px;
         display: grid;
         place-content: center;
     }
+    .vector-img{
+        opacity: 0;
+    }
+    .vector-img.active {
+        opacity: 1;
+        animation: movebounce-up 9s infinite;
+      }
+      .vector-img.fade-bottom {
+        animation: fade-bottom 10s ease-in;
+      }
 }
 
 .third-session{
@@ -7744,39 +7764,7 @@ left: -40px;
             background: #0085FF;
         }
     }
-    .benifits-card{
-        width: 272px;
-        height: 300px;
-        margin: 0px 10px;
-        border-radius: 4px;
-        display: grid;
-        place-items: center;
-        background: radial-gradient(155.19% 155.19% at -20.62% -35.88%, #FF9D0B 0%, #FF4D00 100%);
-        margin-bottom: 15px; 
-        animation: movebounce-up 5s infinite;
-         .benfits-flow{
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 27px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-    }
-    .two{
-        background: radial-gradient(123.86% 123.86% at -5.19% -18.67%, #930AFF 0%, #FA07FF 100%);
-        position: relative;
-        opacity: 0;
-        animation: movebounce-up 5s infinite;
-        animation-delay:2s
-    };
-
-    .two.active {
-        opacity: 1;
-      }
-      .active.fade-bottom {
-        animation: fade-bottom 1s ease-in;
-      }
+    
       @keyframes fade-bottom {
         0% {
           transform: translateY(50px);
@@ -7787,46 +7775,7 @@ left: -40px;
           opacity: 1;
         }
       }
-      .threes{
-        background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
-        position: relative;
-        opacity: 0;
-        animation: movebounce-up 5s infinite;
-        animation-delay:3s
-      }
-      .threes.active {
-        opacity: 1;
-      }
-      .active.fade-bottom {
-        animation: fade-bottom 1s ease-in;
-      }
-      .four{
-        background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
-        position: relative;
-        opacity: 0;
-        animation: movebounce-up 5s infinite;
-        animation-delay:4s
     }
-
-    .four.active {
-        opacity: 1;
-      }
-      .active.fade-bottom {
-        animation: fade-bottom 1s ease-in;
-      }
-
-      .first-card{
-        position: relative;
-        opacity: 0;
-      }
-
-      .first-card.active {
-        opacity: 1;
-      }
-      .first-card.fade-bottom {
-        animation: fade-bottom 1s ease-in;
-      }
-}
 
 
 .card-align{
@@ -7834,7 +7783,12 @@ left: -40px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
     display: grid;
     place-items: center;
+    opacity: 0;
 }
+
+.card-align.active {
+    opacity: 1;
+  }
 
 .card-align-left{
     // margin: 0px -17px;

@@ -6990,12 +6990,12 @@ area {
   border-radius: 3rem;
   padding: 2rem;
   margin: 3rem 0 3rem 0;
-  width: 54rem;
+  width: 100%;
   position: relative;
 }
 @media (max-width: 575px) {
   .methodology .First-text {
-    width: 44rem;
+    width: 100%;
   }
 }
 .methodology .First-text p {
@@ -7028,12 +7028,12 @@ area {
   border-color: yellow;
   border-radius: 3rem;
   padding: 2rem;
-  width: 54rem;
+  width: 100%;
   position: relative;
 }
 @media (max-width: 575px) {
   .methodology .second-text {
-    width: 44rem;
+    width: 100%;
   }
 }
 .methodology .second-text p {

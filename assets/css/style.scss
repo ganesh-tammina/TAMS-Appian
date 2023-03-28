@@ -8355,10 +8355,12 @@ font-weight: bold;
 
 .value-card{
     background-image: url('../TAMS\ imgs/shape-tams.svg');
-    height: 350px;
-    background-size: contain;
+    height: auto;
+    background-size: cover;
     align-items: center;
     width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     background-repeat: no-repeat;
     .global-text{
         font-weight: 700;

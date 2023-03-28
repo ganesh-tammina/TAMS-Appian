@@ -6954,9 +6954,9 @@ area {
   display: grid;
   place-content: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .methodology {
-    height: 180vh;
+    height: 250vh;
   }
 }
 .methodology .methodology-session-text {

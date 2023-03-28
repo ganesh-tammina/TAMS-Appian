@@ -8352,3 +8352,41 @@ font-weight: bold;
         text-align: center;
     }
 }
+
+.value-card{
+    background-image: url('../TAMS\ imgs/shape-tams.svg');
+    height: 350px;
+    background-size: contain;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    .global-text{
+        font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #494949;
+margin-top: 2em;
+    }
+    .global-value{
+        .global-value-one{
+            background: linear-gradient(90.9deg, #C64EFF -1.61%, #36C994 44.65%, #FF00B8 84.9%);
+                -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+        }
+        .global-value-two{
+font-weight: 300;
+        }
+    }
+    .global-increase{
+        font-weight: 400;
+        .global-value-two{
+            background: linear-gradient(90.9deg, #C64EFF -1.61%, #36C994 44.65%, #FF00B8 84.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+        }
+    }
+}

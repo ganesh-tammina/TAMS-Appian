@@ -7356,6 +7356,9 @@ left: -40px;
             margin: 3rem 0 3rem 0;
             width: 54rem;
             position: relative;
+            @media(max-width:575px){
+                width: 44rem;
+            }
             p{
                 color: white;
             }
@@ -7389,6 +7392,9 @@ left: -40px;
             padding: 2rem;
             width: 54rem;
             position: relative;
+            @media(max-width:575px){
+                width: 44rem;
+            }
             p{
                 color: white;
             }

@@ -6949,7 +6949,7 @@ area {
   background-image: url("../TAMS imgs/methodology-bg-shape.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 164vh;
   width: 100%;
   display: grid;
   place-content: center;
@@ -7770,6 +7770,7 @@ area {
   border-radius: 33px;
   display: grid;
   text-align: center;
+  align-items: center;
 }
 .tammina-session .design-card-support .Connect-content {
   display: grid;

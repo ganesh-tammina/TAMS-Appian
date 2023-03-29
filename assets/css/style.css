@@ -7782,6 +7782,15 @@ area {
   text-align: center;
   align-items: center;
 }
+.tammina-session .design-card-support h2 {
+  font-family: "Racing Sans One";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+}
 .tammina-session .design-card-support .Connect-content {
   display: grid;
   place-content: center;

@@ -57,6 +57,7 @@ Default CSS
 
 $title-font: 'Poppins';
 $body-font: 'Poppins';
+$value-font : 'Racing Sans One';
 
 $main-color: #ff3900;
 $color-blue: #2966be;
@@ -8170,6 +8171,17 @@ position: relative;
     display: grid;
     text-align: center;
     align-items: center;
+    h2{
+        font-family: 'Racing Sans One';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: capitalize;
+        font-weight: 400;
+font-size: 35px;
+line-height: 44px;
+
+
+    }
         .Connect-content{
             display: grid;
             place-content: center;

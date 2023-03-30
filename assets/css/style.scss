@@ -7545,6 +7545,9 @@ left: -40px;
     .card-content{
         display: grid;
         place-content: center;
+        .times{
+            animation: rotating 7s linear infinite;
+        }
     }
     .vector-img{
         opacity: 0;

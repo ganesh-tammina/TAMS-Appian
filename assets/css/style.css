@@ -7173,6 +7173,9 @@ area {
   display: grid;
   place-content: center;
 }
+.second-session .card-content .times {
+  animation: rotating 7s linear infinite;
+}
 .second-session .vector-img {
   opacity: 0;
 }

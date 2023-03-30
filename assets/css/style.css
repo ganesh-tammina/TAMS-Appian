@@ -8013,4 +8013,48 @@ area {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: bold;
+}
+
+.tem-model {
+  background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
+}
+
+.tem-model-header {
+  background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+}
+
+.design-card-support {
+  height: auto;
+  background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+  border-radius: 33px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+.design-card-support h2 {
+  font-family: "Racing Sans One";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+}
+.design-card-support .Connect-content {
+  display: grid;
+  place-content: center;
+}
+.design-card-support .Connect-content .Connect-btn {
+  border: 3px solid #FFFFFF;
+  border-radius: 9px;
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */

@@ -6626,10 +6626,6 @@ Buy Now Btn
   font-size: 25px !important;
 }
 
-#register {
-  display: none;
-}
-
 @keyframes result {
   0% {
     opacity: 0;
@@ -6891,6 +6887,9 @@ area {
   line-height: 45px;
   text-transform: capitalize;
   color: #FFFFFF;
+}
+.first-section .first-section-image .Connect-btn a {
+  color: white;
 }
 .first-section .gare-circle-low {
   position: absolute;
@@ -7197,6 +7196,14 @@ area {
 }
 .second-session .vector-img.fade-bottom {
   animation: fade-bottom 10s ease-in;
+}
+.second-session .list {
+  color: white;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 12px 0 12px 0;
 }
 
 .third-session {
@@ -8031,16 +8038,51 @@ area {
 }
 
 .tem-model {
-  background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
+  background: linear-gradient(101.82deg, #00A3FF 25.05%, #1257B6 58.66%);
+}
+.tem-model h5 {
+  font-size: 34px;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0 30px 0;
+}
+.tem-model .stay p {
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+.tem-model .think h2 {
+  color: #ffff00;
+  font-size: 40px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+.tem-model .Free-access p {
+  color: white;
+  font-size: 44px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.link {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .tem-model-header {
-  background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+  background: linear-gradient(96.21deg, #00A3FF 22.34%, #1257B6 73.25%);
+  text-align: center;
 }
 
 .design-card-support {
   height: auto;
-  background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+  animation: changeBackgroundColor 7s infinite;
   box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
   border-radius: 50px 20px;
   display: grid;
@@ -8051,7 +8093,6 @@ area {
   font-family: "Racing Sans One";
   font-weight: normal;
   font-style: normal;
-  text-transform: capitalize;
   font-weight: 400;
   font-size: 35px;
   line-height: 44px;
@@ -8072,4 +8113,19 @@ area {
   text-transform: capitalize;
   color: #FFFFFF;
   border-radius: 50px;
+}
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #001F3F;
+  }
+  50% {
+    background-color: #2b3d44;
+  }
+  100% {
+    background-color: #08417a;
+  }
+}
+
+#register {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

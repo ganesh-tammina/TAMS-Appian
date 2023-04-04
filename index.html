@@ -421,7 +421,7 @@
                     <p class="text-white first-section_content">
                         Streamline, Prioritize & Scale up!
                     </p>
-                    <button class="Connect-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Click Here</button>
+                    <button class="Connect-btn"><a onclick="getform()" href="#register">Play Now</a></button>
                 </div>
             </div>
             <div class="gare-circle-low">
@@ -688,7 +688,7 @@
                         <div class="information">
                             <p style="color: #ffff;">
                                 Tech Tammina always empowers knowledge resources with immediate access to information
-                                and tracks performance toward business goals. Our managed services offer a centralized
+                                and tracks performance toward business goals. Our managed services offer a centralizeds
                                 place wherein the end user can raise tickets for any application. It offers dynamic
                                 allocation of tickets, a streamlined approval matrix, and auto-search of similar tickets
                                 with supporting KB documents to reduce the closure time.
@@ -758,7 +758,7 @@
 
     <div class="tammina-session">
         <div class="text-center tammina-session-reports">
-            <img class="reports-img" src="assets/TAMS imgs/low-code.png">
+            <img class="reports-img" src="assets/TAMS imgs/low-code-change.svg">
         </div>
         <div class="container">
             <div class="row align-items-end height-100">
@@ -810,7 +810,7 @@
                 </div>
                 <div class="Connect-content">
                     <div>
-                        <button class="Connect-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Click Here</button>
+                        <button class="Connect-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><a class="text-white" onclick="getform()" href="#register">Click Here</a></button>
                      <p class="text-center text-white">To learn more</p>
                     </div>
                 </div>
@@ -819,23 +819,33 @@
         </div>
     </div>
 
-    <div class="modal primary-bg" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header tem-model-header">
-                <h1 class="second-session-text text-white">Register line</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="primary-bg" id="register" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="">
+          <div class="">
+            <div class="tem-model-header">
+                <h1 class="second-session-text text-white">Register</h1>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
             </div>
             <div class="modal-body tem-model">
                 <div class="second-session  text-center">
-                   
+                   <img src="" alt="">
                     <h5 class="text-white">REGISTER & GET READY TO FEEL THE CHANGE!</h5>
                     <div class="row">
-                        <div class="col-lg-3">Immediate response</div>
-                        <div class="col-lg-3">Reduce repeated issues</div>
-                        <div class="col-lg-3">Fast closure of tickets</div>
-                        <div class="col-lg-3">Flexible to modify changes </div>
+                        <div class="col-lg-3 link"><img src="../TAMS-Appian/assets/TAMS imgs/🦆 icon _chat lines_.svg" alt="">
+                            Immediate response</div>
+                        <div class="col-lg-3 link">Reduce repeated issues</div>
+                        <div class="col-lg-3 link">Fast closure of tickets</div>
+                        <div class="col-lg-3 link">Flexible to modify changes </div>
                     </div>
+                    <div class="stay">
+                        <p>Stay tuned for more updates and get ready to be amazed by our most
+                            versatile insurtech solution!</p>
+                    </div>
+                    <div class="think">
+                        <h2 class="think">WE THINK YOU’LL LOVE IT</h2>
+                    </div>
+                    <div class="Free-access"><p>Register & Get Free Access to Our Solution Insights!
+                    </p></div>
                 </div>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
                 <script>
@@ -847,11 +857,12 @@
                 </script>
             </div>
             <div class="modal-footer tem-model-header">
-              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Close</button>
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" onclick="cancelmodel()">Close</button>
             </div>
           </div>
         </div>
       </div>
+
 
     <footer class="footer-area footer-bg2 mb-5 pt-5">
         <div class="container">
@@ -1115,7 +1126,11 @@
     <script>
         function getform() {
             document.getElementById('register').style.cssText =
-                "display:block; animation:result 7s ease-out; padding:20px 10px; border-radius:5px;margin: auto;left: 0;right: 0;width: 80%;"
+                "display:block; animation:result 1s ease-out; padding:20px 10px; border-radius:5px;margin: auto;left: 0;right: 0;width: 80%;"
+        }
+
+        function cancelmodel(){
+            document.getElementById('register').style.display = "none"
         }
 
         function reveal() {

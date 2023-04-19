@@ -9,7 +9,8 @@ $bg-color2: #080808;
     position: fixed;
     bottom: 0px;
     z-index: 999;
-    top: 23px;
+    // top: 23px;
+    display: none;
     right: calc(100% - 98%);
     @media(max-width:991px){
         right:88px;

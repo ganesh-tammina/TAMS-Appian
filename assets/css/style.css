@@ -69,6 +69,7 @@ a {
   display: inline-block;
   transition: all 0.5s;
   text-decoration: none;
+  color: #fff !important;
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -129,7 +130,7 @@ img {
 }
 
 .px-60 {
-  padding: 0px 60px;
+  padding: 7px 60px !important;
 }
 
 .border-radius {
@@ -335,11 +336,6 @@ Navbar Area
   padding-left: 0;
   padding-right: 0;
   background-color: transparent;
-}
-.navbar-light img {
-  max-width: 140px;
-  float: left;
-  padding: 10px 0;
 }
 .navbar-light .navbar-brand-sticky {
   display: none;
@@ -549,9 +545,18 @@ Navbar Area
 }
 .nav-bar-two nav .navbar-nav .nav-item a {
   color: #ffffff;
-  position: relative;
-  padding-bottom: 15px;
-  text-decoration: none;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 14px;
+  margin-right: 14px;
+  position: relative !important;
+  /* left: 13px !important; */
+  font-family: Roboto, sans-serif !important;
+  font-size: 16px !important;
+  letter-spacing: 0.5px !important;
+  line-height: 24px;
+  font-weight: 400 !important;
 }
 .nav-bar-two nav .navbar-nav .nav-item a:hover,
 .nav-bar-two nav .navbar-nav .nav-item a :focus {
@@ -674,12 +679,11 @@ Navbar Area
 }
 .sticky-nav .nav-bar-two {
   top: 0;
-  background-color: #2966be;
   position: fixed;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  height: 70px;
-  display: grid;
-  place-items: center;
+  top: 0;
+  background-color: #3498db;
+  position: fixed;
+  box-shadow: 0 0 20px 0 #ccc;
 }
 .sticky-nav .nav-bar-two .switch-box {
   top: 20px;
@@ -5759,10 +5763,10 @@ Footer Area
 }
 
 .footer-bg2 {
-  background-image: url(../img/shape/footer-bg2.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  z-index: 1;
+  padding: 16px 0px;
+  background: #282828 !important;
+  font-family: Roboto, sans-serif !important;
+  min-height: 325px;
 }
 
 .footer-top {
@@ -5830,13 +5834,12 @@ Footer Area
   animation: tada 1s linear;
 }
 
-.footer-widget {
-  margin-bottom: 30px;
-}
 .footer-widget h3 {
-  font-size: 24px;
-  color: #2966be;
+  font-size: 17px;
+  color: #fff;
   margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .footer-widget .footer-list {
   list-style: none;
@@ -5844,12 +5847,13 @@ Footer Area
   padding: 0;
 }
 .footer-widget .footer-list li {
-  display: block;
-  color: #6c6c6c;
-  margin-bottom: 5px;
+  display: flex;
+  color: #fff;
+  line-height: 2;
 }
 .footer-widget .footer-list li a {
-  color: #6c6c6c;
+  color: #fff;
+  font-size: 14px;
 }
 .footer-widget .footer-list li a:hover {
   color: #ff3900;
@@ -5947,8 +5951,7 @@ Footer Area
   margin-bottom: 0;
 }
 .copy-right-area .copy-right-text p a {
-  color: #ff3900;
-  border-bottom: 1px solid #ff3900;
+  color: #fff;
 }
 .copy-right-area .copy-right-text p a:hover {
   color: #1a1b1e;
@@ -5981,7 +5984,7 @@ Footer Area
   display: none;
 }
 .copy-right-list ul li a {
-  color: #2966be;
+  color: #fff !important;
 }
 
 /*==================================
@@ -8254,4 +8257,111 @@ area {
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+.mean-menu {
+  position: relative;
+  left: 13px;
+}
+
+#Endland {
+  display: none;
+}
+
+#NotherLand {
+  display: none;
+}
+
+#india {
+  display: none;
+}
+
+#usa {
+  display: block;
+}
+
+.whats-app {
+  width: 40px;
+  height: 45px;
+  background: #3498db;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.whats-app a {
+  visibility: hidden;
+  opacity: 0;
+}
+.whats-app.email-img {
+  background: #ea2e30;
+  top: 57%;
+}
+.whats-app:hover {
+  width: 220px;
+  transition: all 0.25s ease;
+}
+.whats-app:hover a {
+  visibility: visible;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.footer-bottom {
+  background: #4a4f54 !important;
+  padding: 0 !important;
+  padding: 0 !important;
+  height: 65px;
+  align-items: center;
+  display: flex;
+}
+
+.vc_tta-tabs-list li {
+  list-style: none;
+}
+
+.flags {
+  max-width: 38px;
+  padding: 0px 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50px;
+}
+
+.engflag {
+  height: 23px !important;
+  position: relative;
+  top: 10px;
+}
+
+.techno-img {
+  width: 80%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 60px;
+}
+
+.ml-3 {
+  margin-left: 15px;
+}
+
+.icon-width {
+  width: 10px;
+  margin: 0 13px 0 10px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

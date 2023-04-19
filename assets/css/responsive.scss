@@ -2523,9 +2523,9 @@
     }
     .navbar-light {
         .navbar-brand  {
-            img {
-                max-width: 130px;
-            }
+            // img {
+            //     max-width: 130px;
+            // }
         }
     }
   
@@ -2917,12 +2917,12 @@
     }
 }
 
-@media only screen and (min-width : 1350px) {
-    .container {
-        max-width: 1320px !important;
-        margin: 0 auto;
-    } 
-}
+// @media only screen and (min-width : 1350px) {
+//     .container {
+//         max-width: 1320px !important;
+//         margin: 0 auto;
+//     } 
+// }
 
 @media(max-width:767px){
     .banner-img-2{

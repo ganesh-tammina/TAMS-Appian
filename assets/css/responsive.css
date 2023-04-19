@@ -2406,9 +2406,6 @@
   .main-nav nav .side-nav .side-item .nav-menu-btn {
     padding: 10px 16px;
   }
-  .navbar-light .navbar-brand img {
-    max-width: 130px;
-  }
   .banner-shape-right img {
     max-width: 330px;
   }
@@ -2693,12 +2690,6 @@
     max-width: 1240px;
     margin: 0 auto;
     border-bottom: 1px solid #e4e4e4;
-  }
-}
-@media only screen and (min-width: 1350px) {
-  .container {
-    max-width: 1320px !important;
-    margin: 0 auto;
   }
 }
 @media (max-width: 767px) {

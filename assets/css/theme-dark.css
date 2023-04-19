@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0px;
   z-index: 999;
-  top: 23px;
+  display: none;
   right: 2%;
 }
 @media (max-width: 991px) {

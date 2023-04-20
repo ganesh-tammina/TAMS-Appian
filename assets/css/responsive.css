@@ -2692,6 +2692,12 @@
     border-bottom: 1px solid #e4e4e4;
   }
 }
+@media only screen and (min-width: 1350px) {
+  .container {
+    max-width: 1320px !important;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 767px) {
   .banner-img-2 {
     height: 245px;

@@ -86,7 +86,7 @@ a {
    color: #fff !important;
     &:hover,
     &:focus {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 }
 
@@ -661,6 +661,7 @@ Navbar Area
     letter-spacing: .5px !important;
     line-height: 40px;
     font-weight: 400!important;
+    cursor:  pointer !important;
 
                     &:hover,
                     :focus {
@@ -7040,8 +7041,10 @@ Footer Area
             a {
                 color: #fff;
                 font-size: 14px;
+                text-decoration: none;
+                cursor: pointer;
                 &:hover {
-                    color: $main-color;
+                    color: $main-color !important;
                     letter-spacing: 0.15px;
                 }
             }
@@ -10026,10 +10029,14 @@ area {
     font-weight: 700;
     margin-left: 5px;
     font-size: 16px;
+    text-decoration: none !important;
+
 
     a{
       visibility: hidden;
       opacity: 0;
+    text-decoration: none !important;
+
     }
     &.email-img{
         background: #ea2e30;
@@ -10038,6 +10045,7 @@ area {
     &:hover{
         width: 220px;
         transition: all .25s ease;
+        text-decoration: none !important;
         a{
             visibility: visible;
             margin-left: 10px;

@@ -72,7 +72,7 @@ a {
   color: #fff !important;
 }
 a:hover, a:focus {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 button {
@@ -565,6 +565,7 @@ Navbar Area
   letter-spacing: 0.5px !important;
   line-height: 40px;
   font-weight: 400 !important;
+  cursor: pointer !important;
 }
 .nav-bar-two nav .navbar-nav .nav-item a:hover,
 .nav-bar-two nav .navbar-nav .nav-item a :focus {
@@ -5864,9 +5865,11 @@ Footer Area
 .footer-widget .footer-list li a {
   color: #fff;
   font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .footer-widget .footer-list li a:hover {
-  color: #ff3900;
+  color: #ff3900 !important;
   letter-spacing: 0.15px;
 }
 .footer-widget p {
@@ -8305,10 +8308,12 @@ area {
   font-weight: 700;
   margin-left: 5px;
   font-size: 16px;
+  text-decoration: none !important;
 }
 .whats-app a {
   visibility: hidden;
   opacity: 0;
+  text-decoration: none !important;
 }
 .whats-app.email-img {
   background: #ea2e30;
@@ -8317,6 +8322,7 @@ area {
 .whats-app:hover {
   width: 220px;
   transition: all 0.25s ease;
+  text-decoration: none !important;
 }
 .whats-app:hover a {
   visibility: visible;

@@ -450,7 +450,7 @@ Navbar Area
 
                 .dropdown-menu {
                     border: none;
-                    border-top: 3px solid $main-color;
+                    // border-top: 3px solid $main-color;
                     padding: 0;
                     border-radius: 0;
                     background-color: $color-white !important;
@@ -7016,6 +7016,7 @@ Footer Area
         margin-bottom: 15px;
         text-transform: uppercase;
         font-weight: 700;
+        margin-top: 0;
     }
 
     .footer-list {
@@ -7143,6 +7144,7 @@ Footer Area
     }
 
     .copy-right-text {
+        font-size: 14px;
         p {
             color: $color-blue;
             margin-bottom: 0;
@@ -7160,6 +7162,7 @@ Footer Area
 
 .copy-right-list {
     float: right;
+    font-size: 14px;
     ul {
         list-style: none;
         margin: 0;
@@ -7509,17 +7512,17 @@ Back To Top Button
 }
 
 .top-btn {
-    background-image: linear-gradient(to right, #ff2500, #ff7100);
-    color: $color-white;
-    width: 45px;
-    height: 45px;
+    background: #002e5b;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    box-shadow: 0 0 15px $main-color;
+    box-shadow: #002e5b;
     font-size: 20px;
     display: inline-block;
     text-align: center;
     line-height: 45px;
-    transition: .9s;
+    transition: 0.5s;
 
     &:hover {
         background-image: linear-gradient(to right, #070100e7, #070300bb);

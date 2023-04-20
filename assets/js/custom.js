@@ -276,7 +276,7 @@
     });
 
     // Back To Top Js
-    $('body').append('<div id="toTop" class="top-btn"><img src="assets/img/arrow.webp"></div>');
+    $('body').append('<div id="toTop" class="top-btn"><img src="assets/img/arrow.svg" style="width: 14px;height: 14px;position: relative;top: -5px;"></div>');
     $(window).on('scroll',function () {
         if ($(this).scrollTop() != 0) {
             $('#toTop').fadeIn();

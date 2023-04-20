@@ -391,7 +391,6 @@ Navbar Area
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   border: none;
-  border-top: 3px solid #ff3900;
   padding: 0;
   border-radius: 0;
   background-color: #ffffff !important;
@@ -5840,6 +5839,7 @@ Footer Area
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 0;
 }
 .footer-widget .footer-list {
   list-style: none;
@@ -5946,6 +5946,9 @@ Footer Area
   height: 100%;
   background-color: #f0f0f0;
 }
+.copy-right-area .copy-right-text {
+  font-size: 14px;
+}
 .copy-right-area .copy-right-text p {
   color: #2966be;
   margin-bottom: 0;
@@ -5960,6 +5963,7 @@ Footer Area
 
 .copy-right-list {
   float: right;
+  font-size: 14px;
 }
 .copy-right-list ul {
   list-style: none;
@@ -6267,17 +6271,17 @@ Back To Top Button
 }
 
 .top-btn {
-  background-image: linear-gradient(to right, #ff2500, #ff7100);
+  background: #002e5b;
   color: #ffffff;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 15px #ff3900;
+  box-shadow: #002e5b;
   font-size: 20px;
   display: inline-block;
   text-align: center;
   line-height: 45px;
-  transition: 0.9s;
+  transition: 0.5s;
 }
 .top-btn:hover {
   background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9058823529), rgba(7, 3, 0, 0.7333333333));

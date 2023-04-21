@@ -8296,10 +8296,8 @@ area {
 
 .whats-app {
   width: 40px;
-  height: 45px;
   background: #3498db;
   position: fixed;
-  top: 50%;
   right: 0;
   z-index: 9999;
   display: flex;
@@ -8309,6 +8307,8 @@ area {
   margin-left: 5px;
   font-size: 16px;
   text-decoration: none !important;
+  top: 278px;
+  height: 38px;
 }
 .whats-app a {
   visibility: hidden;
@@ -8317,7 +8317,7 @@ area {
 }
 .whats-app.email-img {
   background: #ea2e30;
-  top: 57%;
+  top: 319px !important;
 }
 .whats-app:hover {
   width: 220px;
